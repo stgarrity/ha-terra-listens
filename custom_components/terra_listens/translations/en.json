@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Terra Listens Login",
+        "description": "Enter your Terra Listens portal credentials.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password.",
+      "cannot_connect": "Unable to connect to Terra Listens.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This account is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "species_today": { "name": "Species today" },
+      "calls_today": { "name": "Calls today" },
+      "top_bird": { "name": "Top bird" },
+      "last_bird": { "name": "Last bird" },
+      "yard_list_total": { "name": "Yard list total" }
+    },
+    "binary_sensor": {
+      "streaming": { "name": "Streaming" }
+    }
+  }
+}

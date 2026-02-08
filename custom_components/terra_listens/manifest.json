@@ -1,0 +1,14 @@
+{
+  "domain": "terra_listens",
+  "name": "Terra Listens",
+  "codeowners": ["@stgarrity"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/stgarrity/ha-terra-listens",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/stgarrity/ha-terra-listens/issues",
+  "requirements": [
+    "terra-sdk @ git+https://github.com/stgarrity/terra-api.git@master"
+  ],
+  "version": "0.1.0"
+}
