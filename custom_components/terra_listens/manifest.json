@@ -8,7 +8,7 @@
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/stgarrity/ha-terra-listens/issues",
   "requirements": [
-    "terra-listens-sdk==0.1.0"
+    "terra-listens-sdk==0.2.1"
   ],
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
